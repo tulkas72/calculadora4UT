@@ -16,5 +16,10 @@ public class Calculadora
     {
         return arg1+arg2;
     }
+    public int method(int arg1,int arg2)
+    {
+        return 2;
+    }
+    
     
 }
