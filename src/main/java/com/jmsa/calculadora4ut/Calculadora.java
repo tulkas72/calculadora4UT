@@ -14,7 +14,7 @@ public class Calculadora
  
     public int Suma(int arg1,int arg2)
     {
-        return 4;
+        return arg1+arg2;
     }
     
 }
