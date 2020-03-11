@@ -40,6 +40,13 @@ public class CalculadoraNGTest {
         int result=calculadora.Suma(2, 2);
         assertEquals(4, result);
     }
-   
+    @org.testng.annotations.Test
+    public void testSumaDiferente() {
+        // TODO review the generated test code and remove the default call to fail.          
+        Calculadora calculadora= new Calculadora();
+        int result=calculadora.Suma(2, 5);
+        assertEquals(7, result);
+    }
+    
     
 }
